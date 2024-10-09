@@ -12,9 +12,9 @@ jobs:
               uses: actions/checkout@v3 #zbior akcji dla gita?
             - name: Install dictionaries 
               run: |
-              npm install @cspell/dict-pl_pl
-              npm install @cspell/dict-latex
-              npm install @cspell/dict-python
+                npm install @cspell/dict-pl_pl
+                npm install @cspell/dict-latex
+                npm install @cspell/dict-python
             - name: Run cspell
               uses: streetsidesoftware/cspell-action@v2 #akcja do odpalania cspell
               with:
