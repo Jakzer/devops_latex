@@ -21,4 +21,4 @@ jobs:
                 files: "*.tex" #jakie pliki
                 check_dot_files: false # pliki ukryte
                 strict: true #kazdy blad ortograficzny jaki blad do zgloszenia
-                incremental_file_only: true #sprawdza tylko pliki ktore sie zmienily
+                incremental_files_only: true #sprawdza tylko pliki ktore sie zmienily
